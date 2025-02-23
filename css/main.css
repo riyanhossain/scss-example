@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background: #2d3436;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.button, .card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00b5a3;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-inline: auto;
+}
+.button:hover, .card__button:hover {
+  background: rgb(0, 130, 117.0718232044);
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  text-align: center;
+}
+.card__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card__button {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+@use "../abstracts" as *; // Import all abstracts
+@use "sass:color";
+
+.button {
+  @include flex-center;
+  background: $primary-color;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-inline: auto;
+
+  &:hover {
+    background: color.adjust($primary-color, $lightness: -10%);
+  }
+}

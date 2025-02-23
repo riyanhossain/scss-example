@@ -1,0 +1,22 @@
+@use "../abstracts" as *; // Import all abstracts// Import button styles
+@use "../components/button";
+
+.card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  text-align: center;
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    @extend .button;
+    margin-top: 10px;
+  }
+}
